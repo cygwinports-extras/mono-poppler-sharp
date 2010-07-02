@@ -1,0 +1,6 @@
+inherit mono
+
+DESCRIPTION="Mono poppler-glib bindings"
+HOMEPAGE="http://github.com/jacintos/poppler-sharp"
+SRC_URI="http://github.com/downloads/jacintos/poppler-sharp/${P}.tar.bz2"
+PATCH_URI="0.0.1-dllmap-cygwin.patch"
