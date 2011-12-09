@@ -1,0 +1,7 @@
+--- origsrc/poppler-sharp-0.0.3/sources/poppler-sharp.dll.config	2011-12-08 08:07:31.000000000 -0600
++++ src/poppler-sharp-0.0.3/sources/poppler-sharp.dll.config	2011-12-08 20:34:03.581831900 -0600
+@@ -1,3 +1,4 @@
+ <configuration>
+     <dllmap dll="poppler-glib" target="libpoppler-glib.so.8"/>
++    <dllmap dll="poppler-glib" target="cygpoppler-glib-8.dll" os="cygwin"/>
+ </configuration>
